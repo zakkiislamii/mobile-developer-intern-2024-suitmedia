@@ -25,7 +25,6 @@ import com.example.mobile_developer_intern_2024_suitmedia.view.screen.firstScree
 fun FirstScreenBody(
     firstScreenField: FirstScreenField,
     firstScreenButton: FirstScreenButton,
-    navController: NavController,
     name: String,
     palindrome: String,
     onNameChange: (String) -> Unit,

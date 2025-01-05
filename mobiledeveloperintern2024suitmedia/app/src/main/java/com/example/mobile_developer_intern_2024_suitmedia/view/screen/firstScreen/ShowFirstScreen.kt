@@ -60,7 +60,6 @@ fun ShowFirstScreen(navController: NavController) {
                 FirstScreenBody(
                     firstScreenField = firstScreenField,
                     firstScreenButton = firstScreenButton,
-                    navController = navController,
                     name = name,
                     palindrome = palindrome,
                     onNameChange = { name = it },
