@@ -59,6 +59,7 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
+    implementation(libs.androidx.runtime.livedata)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
@@ -73,7 +74,12 @@ dependencies {
     implementation("com.squareup.moshi:moshi-kotlin:1.14.0")
     implementation("io.coil-kt.coil3:coil-compose:3.0.4")
     implementation("io.coil-kt.coil3:coil-network-okhttp:3.0.4")
-    implementation("com.squareup.okhttp3:okhttp:4.9.1") 
+    implementation("com.squareup.okhttp3:okhttp:4.9.1")
+    implementation("androidx.compose.runtime:runtime:1.7.5")
+    implementation("androidx.compose.runtime:runtime-livedata:1.7.5")
+    implementation("androidx.compose.runtime:runtime-rxjava2:1.7.5")
+    implementation ("com.google.accompanist:accompanist-swiperefresh:0.27.0")
+    implementation("androidx.compose.material3:material3:1.2.0-beta01")
 
 
 }
